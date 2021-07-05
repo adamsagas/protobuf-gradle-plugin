@@ -20,7 +20,7 @@ buildscript {
 }
 
 dependencies {
-  compile 'com.google.protobuf:protobuf-java:3.0.0'
+  compile 'com.google.protobuf:protobuf-java:2.6.0'
   compile 'io.grpc:grpc-stub:1.0.0-pre2'
   compile 'io.grpc:grpc-protobuf:1.0.0-pre2'
   compile 'com.google.guava:guava:27.0.1-jre'
