@@ -23,6 +23,7 @@ dependencies {
   compile 'com.google.protobuf:protobuf-java:3.0.0'
   compile 'io.grpc:grpc-stub:1.0.0-pre2'
   compile 'io.grpc:grpc-protobuf:1.0.0-pre2'
+  compile 'com.google.guava:guava:27.0.1-jre'
   if (JavaVersion.current().isJava9Compatible()) {
     // Workaround for @javax.annotation.Generated
     // see: https://github.com/grpc/grpc-java/issues/3633
